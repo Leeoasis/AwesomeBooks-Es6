@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Awesome books ES6</title>
+</head>
+<body>
+	<div class="nav-bar">
+		<h1>Awesome Books</h1>
+		<ul class="nav-ul">
+			<li id="list"><a class="switch-link" href="#">List</a></li>
+			<li id="add-link"><a class="switch-link" href="#">Add new</a></li>
+			<li id="contacts"><a class="switch-link" href="#">Contact</a></li>
+		</ul>
+	</div>
+	<div class="date">
+		<p class="date-time"></p>
+	</div>
+	<h2 class="books">All Awesome books</h2>
+
+	<!--Dynamic Book Display-->
+
+	<div id="book-collection" class="hidden">
+		<!-- Dynamic content from JS -->
+	</div>
+
+	<!-- Form Section -->
+	<div class="forms-section hidden" id="add-books">
+		<h2>Add a new book</h2>
+		<form id="form">
+			<div class="text-input">
+				<input type="text" id="title" name="title" placeholder="Title" required />
+			</div>
+			<br />
+
+			<div class="text-input">
+				<input type="text" id="author" name="author" placeholder="Author" required />
+			</div>
+			<br />
+			<button type="submit" class="addbtn">Add</button>
+		</form>
+	</div>
+
+	<!--Contact and Footer Section -->
+	<div class="contact-display hidden">
+		<div class="contact-section">
+			<h2>
+				Contact Information
+			</h2>
+			<div class="contact-text">
+				<p>Do you have any questions or just want to say "Hello"?</p>
+				<p>You can reach out to us!</p>
+				<ul>
+					<li>Our email: Kooliesk@gmail.com</li>
+					<li>Our phone number: +27681063903</li>
+					<li>Our address:125 Market Street Parrow</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</main>
+<footer class="footer-section">
+	<p>Copyright</p>
+</footer>
+	<script type="module" defer src="index.js"></script>
+</body>
+
+</html>
