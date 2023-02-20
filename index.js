@@ -1,7 +1,10 @@
-import Storage from './modules/storage.js';
-import UI from './modules/ui.js';
-import Book from './modules/bookClass.js';
+import Book from "./modules/bookClass.js"
+import Storage from "./modules/storage.js";
+import UI from "./modules/ui.js";
 import { DateTime } from './modules/luxon.js';
+
+
+
 
 document.addEventListener('DOMContentLoaded', UI.displayBooks);
 document.querySelector('#form').addEventListener('submit', () => {

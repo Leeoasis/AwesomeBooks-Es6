@@ -1,5 +1,6 @@
+// Store Class: Handles local storage of books
 export default class Storage {
-    // Receives Books
+  // Receives Books
   static getBooks() {
     let books;
     if (localStorage.getItem('books') === null) {
@@ -31,4 +32,4 @@ export default class Storage {
 
     localStorage.setItem('books', JSON.stringify(books));
   }
-  }
+}
