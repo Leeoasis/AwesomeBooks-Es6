@@ -1,0 +1,31 @@
+{
+  "name": "awesomebooks-es6",
+  "version": "1.0.0",
+  "description": "- [📖 About the Project](#Awesome books)\r   - [🛠 Built With](#built-with)\r     - [Tech Stack](#html-css)\r     - [Key Features](#home-page)\r   - [🚀 Live Demo](#live-demo)\r - [💻 Getting Started](#getting-started)\r   - [Setup](#setup)\r   - [Prerequisites](#prerequisites)\r   - [Run tests](#run-tests)\r   - [Deployment](#triangular_flag_on_post-deployment)\r - [👥 Authors](#Leslie_Gudo)\r - [🔭 Future Features](#the other pages)\r - [🤝 Contributing](#contributing)\r - [⭐️ Show your support](#support)\r - [🙏 Acknowledgements](#microverse)\r - [❓ FAQ (OPTIONAL)](#faq)\r - [📝 License](#license)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Leeoasis/AwesomeBooks-Es6.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Leeoasis/AwesomeBooks-Es6/issues"
+  },
+  "homepage": "https://github.com/Leeoasis/AwesomeBooks-Es6#readme",
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.27.5",
+    "hint": "^7.1.3",
+    "stylelint": "^13.13.1",
+    "stylelint-config-standard": "^21.0.0",
+    "stylelint-csstree-validator": "^1.9.0",
+    "stylelint-scss": "^3.21.0"
+  }
+}
